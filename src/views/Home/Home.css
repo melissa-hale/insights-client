@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("https://i.imgur.com/vUzyFpV.jpg");
+    /* position: fixed; */
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-image {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.nav-link,
+.sr-only {
+    width: 300px;
+}
+
+.container-search,
+.title,
+form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: stretch;
+    padding: 20px;
+    margin-top: 300px;
+    width: 900px;
+    height: 400px;
+    padding: 100px;
+    background-color: #F6F6F6;
+}
+
+* {
+    /* Reset browser's padding and margin */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 400px auto;
+    width: 600px;
+    height: 60px
+}
+
+/* The point of this tutorial is here */
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+#middle-container,
+button {
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+}
