@@ -45,7 +45,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="container search container-section">
+      <div className="container">
         <h1>
            Support Local Today  <br />
         </h1>
@@ -57,7 +57,7 @@ class Home extends Component {
               placeholder="search for a business"
               id="inputField"
               onChange={this.captureFilter}
-              value={this.state.filter}
+              // value={this.state.filter}
             ></input>
           </div>
           <button className="btn btn-primary">Search</button>

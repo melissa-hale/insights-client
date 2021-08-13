@@ -6,7 +6,7 @@ class Results extends Component {
     return (
       <div className="container">
         {/* {console.log(this.props.location.state)} */}
-        <h1>Here you are!</h1>
+        {/* <h1>Here you are!</h1> */}
         <div className="row">
           {
             // below is where the cards can be adjusted for each result

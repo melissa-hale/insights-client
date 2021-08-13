@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Routes } from './routes'; // where we are going to specify our routes
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import reportWebVitals from './reportWebVitals'
 

@@ -29,23 +29,22 @@ const NavBar = () => {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <a className="nav-link">
-                  <Link to="/">Write a Review</Link>
-                  <span className="sr-only">(current)</span>
+                  <Link className="text-decoration-none"to="/">Write a Review</Link>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link">
-                  <Link to="/Home">Get Involved</Link>
+                  <Link className="text-decoration-none" to="/Home">Get Involved</Link>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link">
-                  <Link to="/Home">Contact</Link>
+                  <Link className="text-decoration-none" to="/Home">Contact</Link>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link">
-                  <Link to="/Home">About</Link>
+                  <Link className="text-decoration-none" to="/Home">About</Link>
                 </a>
               </li>
 
