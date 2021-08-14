@@ -47,7 +47,7 @@ class Home extends Component {
     return (
       <div className="container">
         <h1>
-           Support Local Today  <br />
+           Support Minority-Owned Today!  <br />
         </h1>
         <form autocomplete="off" onSubmit={this.findBusinesses.bind(this)}>
           <div className="form-group">

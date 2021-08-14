@@ -1,0 +1,15 @@
+.biz_image_container {
+	float: left;
+	margin: 10px;
+}
+
+.biz_image {
+	height: 200px;
+	width: 200px;
+}
+
+.biz_details {
+	color: white;
+	text-align: left;
+	margin-left: 10px;
+}

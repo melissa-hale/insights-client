@@ -18,6 +18,7 @@ export const Routes = () => {
           <Redirect to="/" />
         </Route>
         <Route exact path="/Results" component={Results} />
+		{/* How to make BusinessDetails only reachable from Results */}
         <Route exact path="/BusinessDetails" component={BusinessDetails} />
         <Route exact path="/NewBusiness" component={NewBusiness} />
       </Switch>

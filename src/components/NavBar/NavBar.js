@@ -18,10 +18,12 @@ const NavBar = () => {
           <a class="navbar-brand">
             <Link to="/"></Link>
             <div class="logo-image">
+              <a class="navbar-brand" href="/">
               <img
                 src="https://i.imgur.com/khVtDE2.png"
                 class="img-fluid"
               ></img>
+              </a>
             </div>
           </a>
 
@@ -34,7 +36,7 @@ const NavBar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link">
-                  <Link className="text-decoration-none" to="/Home">Get Involved</Link>
+                  <Link className="text-decoration-none" to="/NewBusiness">Add a New Business</Link>
                 </a>
               </li>
               <li className="nav-item">
